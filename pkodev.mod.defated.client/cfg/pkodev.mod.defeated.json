@@ -1,0 +1,14 @@
+{
+	"debug":false,
+	"hideTime":5000,
+	"maxItems":5,
+	"itemStep":24,
+	"pos":{
+		"x":460,
+		"y":8
+	},
+	"align": {
+		"x":"right",
+		"y":"top"
+	}
+}

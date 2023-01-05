@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="TextLabel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiPic.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="DefeatPanel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="RPacket.cpp">
+      <Filter>Game.exe</Filter>
+    </ClCompile>
+    <ClCompile Include="import.cpp">
+      <Filter>Mod loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\Settings.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextLabel.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiPic.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="DefeatPanel.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="RPacket.h">
+      <Filter>Game.exe</Filter>
+    </ClInclude>
+    <ClInclude Include="address.h">
+      <Filter>Mod loader</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>Mod loader</Filter>
+    </ClInclude>
+    <ClInclude Include="import.h">
+      <Filter>Mod loader</Filter>
+    </ClInclude>
+    <ClInclude Include="structure.h">
+      <Filter>Mod loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Settings.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{fc5047c1-3ac7-4fdd-865d-33b481820e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game.exe">
+      <UniqueIdentifier>{11e14205-783c-469d-81e1-b56d6f422455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mod loader">
+      <UniqueIdentifier>{b1298aeb-5046-4076-8232-3ac2c383cdb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{f8a3b9ef-459f-46cb-84f6-a147ddef27c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
