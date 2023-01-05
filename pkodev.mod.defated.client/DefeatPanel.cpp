@@ -105,6 +105,17 @@ namespace pkodev { namespace gui {
         }
     }
 
+    void DefeatPanel::SetMaxItems(unsigned int max)
+    {
+        if (m_items.size() > max) {
+            const unsigned int delta = m_items.size() - max;
+            for (unsigned int i = 0; i < delta; ++i) {
+                m_items.pop_front();
+            }
+        }
+        m_maxItems = max;
+    }
+
     unsigned int DefeatPanel::GetWidth() const
     {
         static const unsigned int charWidth = CTextLabel::GetTextSize("a").x;

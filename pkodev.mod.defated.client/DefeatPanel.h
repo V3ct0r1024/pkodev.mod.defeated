@@ -41,7 +41,7 @@ namespace pkodev { namespace gui {
             void SetHideTime(unsigned int time) { m_hideTime = time; }
             unsigned int GetHideTime() const { return m_hideTime; }
 
-            void SetMaxItems(unsigned int max) { m_maxItems = max; }
+            void SetMaxItems(unsigned int max);
             unsigned int GetMaxItems() const { return m_maxItems; }
 
             void SetItemsStep(int step) { m_step = step; };
